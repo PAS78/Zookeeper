@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // call the method here
+        Scanner scanner = new Scanner(System.in);
+
+        countAreaOfParallelogram(scanner.nextInt(), scanner.nextInt());
     }
 
     // Do not change code below   
